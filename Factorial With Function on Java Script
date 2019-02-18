@@ -1,0 +1,10 @@
+var num=5;
+var fact1=1;
+function fact(num,fact1){
+for(i=1;i<=num;i++)
+{
+   fact1 =fact1 * i;
+}
+print(fact1);
+};
+fact(num,fact1);
